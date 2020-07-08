@@ -19,7 +19,7 @@ module.exports = function (/* ctx */) {
     // --> boot files are part of "main.js"
     // https://quasar.dev/quasar-cli/boot-files
     boot: [
-      
+
       'axios',
     ],
 
@@ -44,7 +44,7 @@ module.exports = function (/* ctx */) {
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // available values: 'hash', 'history'
 
       // transpile: false,
 
@@ -109,9 +109,9 @@ cfg.module.rules.push({
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `sunspa-frontend`,
-        short_name: `sunspa-frontend`,
-        description: `app mamagement employee SUNSPA GROUP`,
+        name: `CRM Trường Thịnh Group`,
+        short_name: `CRM Trường Thịnh Group`,
+        description: `Phần mềm CRM Trường Thịnh Group`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',

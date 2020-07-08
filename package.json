@@ -1,8 +1,8 @@
 {
-  "name": "sunspa-fe",
+  "name": "CRM Trường Thịnh Group",
   "version": "0.0.1",
   "description": "app mamagement employee SUNSPA GROUP",
-  "productName": "sunspa-frontend",
+  "productName": "CRM Trường Thịnh Group",
   "author": "LuuDucHoang<hitech.qb@gmail.com>",
   "private": true,
   "scripts": {
